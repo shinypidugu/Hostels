@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.pavansantu.hostels">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="27" />
+	<application android:theme="null" android:label="Hostels" android:icon="res/mipmap-anydpi-v26/ic_launcher.xml" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="res/mipmap-anydpi-v26/ic_launcher_round.xml">
+		<activity android:name="com.example.pavansantu.hostels.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.example.pavansantu.hostels.Main2Activity" />
+		<activity android:name="com.example.pavansantu.hostels.krm" />
+		<activity android:name="com.example.pavansantu.hostels.kshetra" />
+		<activity android:name="com.example.pavansantu.hostels.vaibav" />
+		<activity android:name="com.example.pavansantu.hostels.sai" />
+		<activity android:name="com.example.pavansantu.hostels.nisha" />
+		<activity android:name="com.example.pavansantu.hostels.Login">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
